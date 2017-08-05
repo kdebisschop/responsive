@@ -1,4 +1,4 @@
-header, footer{
+header, main, footer{
     margin: 1.5rem
 }
 
@@ -15,6 +15,16 @@ ol{
     margin:1em;
 }
 
+nav li a {
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+main section div {
+    margin: 1em 0;
+}
+main section div img {
+    width: 24%;
+}
 footer{
     text-transform: uppercase;
 }
